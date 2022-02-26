@@ -92,6 +92,10 @@ roll.addEventListener("click", function() {
       draw.innerHTML = "No Winner: " + drawCounter;
     }
   }
+  roll.classList.add("pressed");
+  setTimeout(function(){
+    roll.classList.remove("pressed");
+  }, 100);
   var rollSound = new Audio('sounds/dice.wav');
   rollSound.play();
 });
@@ -104,6 +108,12 @@ reset.addEventListener("click", function() {
   function resetH1() {
     document.querySelector("h1").innerHTML = "🏴‍☠️Roll Them Bones🏴‍☠️";
   };
+
+  reset.classList.add("pressed");
+  setTimeout(function(){
+    reset.classList.remove("pressed");
+  }, 100);
+
   dice1.setAttribute("src", "images/dice0.png");
   dice2.setAttribute("src", "images/dice0.png");
   result1.innerHTML = "-";

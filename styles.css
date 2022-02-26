@@ -9,9 +9,7 @@
   border: 0;
   color: #363131;
 }
-
 .button {
-  margin: 5px;
   font-family: 'Roboto', sans-serif;
   color: #363131;
   border: 0;
@@ -25,6 +23,7 @@
 
 .counter {
   text-align: center;
+  padding-top: 15px;
 }
 
 .dice {
@@ -39,11 +38,16 @@
   text-shadow: 2px 0 #363131;
 }
 
+.pressed {
+  box-shadow: 0 2px 4px 0 #363131;
+  opacity: 0.5;
+}
+
 body {
   background-color: #363131;
   background-image: url(images/background.png), radial-gradient(#363131, #000000);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center top;
 }
 
 footer {
