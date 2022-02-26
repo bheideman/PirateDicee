@@ -1,0 +1,72 @@
+.btn {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #728766;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  border: 0;
+  color: #363131;
+}
+
+.button {
+  margin: 5px;
+  font-family: 'Roboto', sans-serif;
+  color: #363131;
+  border: 0;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.counter {
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+.players {
+  font-family: 'Pirata One', cursive;
+  font-size: 2rem;
+  color: #833939;
+  text-shadow: 2px 0 #363131;
+}
+
+body {
+  background-color: #363131;
+  background-image: url(images/background.png), radial-gradient(#363131, #000000);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+footer {
+  margin-top: 5%;
+  color: #363131;
+  text-align: center;
+  font-family: 'Pirata One', cursive;
+}
+
+h1 {
+  margin: 20px;
+  font-family: 'Pirata One', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 7rem;
+  color: #833939;
+}
+
+p {
+  font-size: 1.3rem;
+  color: #363131;
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  width: 80%;
+}
