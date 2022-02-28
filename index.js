@@ -47,9 +47,9 @@ roll.addEventListener("click", function() {
     }
     //Outcome
     if (winner1 > winner2) {
-      document.querySelector("h1").innerHTML = "🚩 Player 1 Wins";
+      document.querySelector("h1").innerHTML = "🏴 Player 1 Wins";
     } else if (winner1 < winner2) {
-      document.querySelector("h1").innerHTML = "Player 2 Wins 🚩";
+      document.querySelector("h1").innerHTML = "Player 2 Wins 🏴";
     } else {
       document.querySelector("h1").innerHTML = "🏳️Draw!🏳️";
     }
@@ -93,7 +93,7 @@ roll.addEventListener("click", function() {
     }
   }
   roll.classList.add("pressed");
-  setTimeout(function(){
+  setTimeout(function() {
     roll.classList.remove("pressed");
   }, 100);
   var rollSound = new Audio('sounds/dice.wav');
@@ -110,7 +110,7 @@ reset.addEventListener("click", function() {
   };
 
   reset.classList.add("pressed");
-  setTimeout(function(){
+  setTimeout(function() {
     reset.classList.remove("pressed");
   }, 100);
 
